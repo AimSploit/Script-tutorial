@@ -19,4 +19,4 @@ Section:NewSlider("Slider", "what does this slider do?", 500, 0, function(s) -- 
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 local credits = Window:NewTab("Credits")
-local Section = Tab:NewSection("Take#1810 -SCRIPT BASE")
+local Section = credits:NewSection("Take#1810 -SCRIPT BASE")
